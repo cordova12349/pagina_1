@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Registro | Login Firebase Pro</title>
+
+    <link rel="stylesheet" href="registro.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+</head>
+
+<body>
+
+<div class="contenedor">
+
+    <div class="lado-izquierdo">
+
+        <h1>Únete a nosotros</h1>
+
+        <p>
+
+            Crea tu cuenta y administra tu información desde cualquier dispositivo
+            de manera rápida y segura.
+
+        </p>
+
+    </div>
+
+    <div class="lado-derecho">
+
+        <div class="formulario">
+
+            <h2>Crear Cuenta</h2>
+
+            <form id="registroForm">
+
+                <div class="grupo">
+
+                    <i class="fa-solid fa-user"></i>
+
+                    <input
+                        type="text"
+                        id="nombre"
+                        placeholder="Nombre"
+                        required>
+
+                </div>
+
+                <div class="grupo">
+
+                    <i class="fa-solid fa-user"></i>
+
+                    <input
+                        type="text"
+                        id="apellido"
+                        placeholder="Apellido"
+                        required>
+
+                </div>
+
+                <div class="grupo">
+
+                    <i class="fa-solid fa-envelope"></i>
+
+                    <input
+                        type="email"
+                        id="correo"
+                        placeholder="Correo electrónico"
+                        required>
+
+                </div>
+
+                <div class="grupo">
+
+                    <i class="fa-solid fa-phone"></i>
+
+                    <input
+                        type="text"
+                        id="telefono"
+                        placeholder="Teléfono"
+                        required>
+
+                </div>
+
+                <div class="grupo">
+
+                    <i class="fa-solid fa-lock"></i>
+
+                    <input
+                        type="password"
+                        id="password"
+                        placeholder="Contraseña"
+                        required>
+
+                </div>
+
+                <div class="grupo">
+
+                    <i class="fa-solid fa-lock"></i>
+
+                    <input
+                        type="password"
+                        id="confirmar"
+                        placeholder="Confirmar contraseña"
+                        required>
+
+                </div>
+
+                <button type="submit">
+
+                    Crear Cuenta
+
+                </button>
+
+            </form>
+
+            <p class="login">
+
+                ¿Ya tienes cuenta?
+
+                <a href="login.html">
+
+                    Inicia Sesión
+
+                </a>
+
+            </p>
+
+        </div>
+
+    </div>
+
+</div>
+
+<script type="module" src="js/registro.js"></script>
+
+</body>
+
+</html>
